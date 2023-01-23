@@ -1,6 +1,6 @@
 .\" Manpage for _printf.
 
-.TH _printf 3 "30 July 2019" "1.0" "Program Manual for _printf"
+.TH _printf 3 "23 February 2023" "1.0" "Program Manual for _printf"
 
 .SH NAME
 
@@ -251,4 +251,4 @@ int main(void)
 
 	.SH AUTHORS
 
-	Written by \fBDiego López\fR and \fBLuis Chaparro\fR.
+	Written by \fBEric Pisco\fR and \fBRhady Gasingwa\fR.

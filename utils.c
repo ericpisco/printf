@@ -30,3 +30,23 @@ int append_hexa_code(char ascii_code, char buffer[], int i)
 
 	buffer[i++] = '\\';
 	buffer[i++] = 'x';
+
+	buffer[i++] = map_to[ascii_code / 16];
+	buffer[i] = map_to[ascii_code % 16];
+
+	return (3);
+}
+
+/**
+ * is_digit - Verifies if a char is a digit
+ * @c: Char to be evaluated
+ *
+ * Return: 1 if c is a digit, 0 otherwise
+ */
+int is_digit(char c)
+{
+	if (c >= '0' && c <= '9')
+		return (1);
+
+	return (0);
+}

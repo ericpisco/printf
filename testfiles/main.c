@@ -1,6 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+ *rev_string - A string of chars
+ *@s: initial char
+ * Return: Base length
+ */
+
 char *rev_string(char *s)
 {
 	int i, max, half;
@@ -28,6 +34,7 @@ char *rev_string(char *s)
  * base_len - finds length of number
  * @base: to be calculated
  * @num: checked
+ * Return: i success
  */
 
 unsigned int base_len(unsigned int num, int base)
@@ -77,6 +84,11 @@ char *hex_conv(int num)
 	rev_string(str);
 	return (str);
 }
+
+/**
+ * main -Entry Point
+ * Return: 0 success
+ */
 
 int main(void)
 {
